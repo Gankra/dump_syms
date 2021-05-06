@@ -1688,6 +1688,7 @@ checksum = "8ea5119cdb4c55b55d432abb513a0429384878c15dde60cc77b1c99de1a95a6a"
 [[package]]
 name = "symbolic"
 version = "8.0.5"
+source = "git+https://github.com/Gankra/symbolic?branch=compact#495fb9d281ffa37a9e51df6391ae2b76fbf0f173"
 dependencies = [
  "symbolic-common",
  "symbolic-debuginfo",
@@ -1698,6 +1699,7 @@ dependencies = [
 [[package]]
 name = "symbolic-common"
 version = "8.0.5"
+source = "git+https://github.com/Gankra/symbolic?branch=compact#495fb9d281ffa37a9e51df6391ae2b76fbf0f173"
 dependencies = [
  "debugid",
  "memmap",
@@ -1708,6 +1710,7 @@ dependencies = [
 [[package]]
 name = "symbolic-debuginfo"
 version = "8.0.5"
+source = "git+https://github.com/Gankra/symbolic?branch=compact#495fb9d281ffa37a9e51df6391ae2b76fbf0f173"
 dependencies = [
  "dmsort",
  "elementtree",
@@ -1722,6 +1725,7 @@ dependencies = [
  "pest",
  "pest_derive",
  "regex",
+ "scroll",
  "serde",
  "serde_json",
  "smallvec",
@@ -1735,6 +1739,7 @@ dependencies = [
 [[package]]
 name = "symbolic-demangle"
 version = "8.0.5"
+source = "git+https://github.com/Gankra/symbolic?branch=compact#495fb9d281ffa37a9e51df6391ae2b76fbf0f173"
 dependencies = [
  "cc",
  "cpp_demangle",
@@ -1746,6 +1751,7 @@ dependencies = [
 [[package]]
 name = "symbolic-minidump"
 version = "8.0.5"
+source = "git+https://github.com/Gankra/symbolic?branch=compact#495fb9d281ffa37a9e51df6391ae2b76fbf0f173"
 dependencies = [
  "cc",
  "lazy_static",
